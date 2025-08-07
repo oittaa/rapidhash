@@ -120,7 +120,7 @@ Not implemented at the moment.
 before
 ```go
 			for i > 112 {
-                // ....
+				// ....
 				p = p[112:]
 				i -= 112
 			}
@@ -129,10 +129,10 @@ before
 after
 ```go
 			for {
-                // ....
+				// ....
 				p = p[112:]
 				i -= 112
-                if i <= 112 {
+				if i <= 112 {
 					break
 				}
 			}
